@@ -1,0 +1,1 @@
+sqlcmd -S SQLDBPRD02\collective  -d EAI  -E -s"," -W -Q "set nocount on; SELECT * FROM anaplan_ns" > C:AnaplanFiles\Test.csv

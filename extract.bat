@@ -1,0 +1,1 @@
+sqlcmd -S SQLDBPRD02\Collective  -U reportuser -P Read@123 -d EAI  -s"," -W -Q "set nocount on; SELECT MATNR,LGORT,VKBUR, REGIO, PRCTR, MAKTX, LGOBE, NAME1, BRAND, PACK, FPERIOD, QUANTITY, GSV, NSR, GSR  FROM anaplan_ns" > C:\AnaplanFiles\Test.csv
